@@ -60,7 +60,7 @@ const TodoApp: React.FC = () => {
   const [editTiltle, setEditTiltle] = useState<string>("");
   const [editDescription, setEditDescription] = useState<string>("");
   const [EditModalOpen, setEditModalOpen] = useState<boolean>(false);
-  const [currentTodo, setCurrentTodo] = useState<TodoItem | null>(null); // Changed from string to TodoItem
+  const [currentTodo, setCurrentTodo] = useState<TodoItem | null>(null); 
 
   //delete
   const deleteTodo = (id: string) => {
